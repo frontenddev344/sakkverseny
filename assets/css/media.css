@@ -163,6 +163,9 @@
         width: 100%;
         text-align: center;
     }
+    .wrapper {
+        max-width: 90%;
+    }
 }
 
 @media(max-width:375px){
