@@ -160,11 +160,14 @@
         flex-direction: column;
     }
     .signup-btns a {
-        width: 100%;
+        width: 68%;
         text-align: center;
     }
     .wrapper {
         max-width: 90%;
+    }
+    .site-header nav {
+        top: 75px;
     }
 }
 
@@ -188,5 +191,8 @@
     }
     .card {
         padding: 2rem;
+    }
+    .signup-btns a {
+        width: 90%;
     }
 }
