@@ -1,0 +1,186 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:1050px){
+    .features-con {
+        width: 50%;
+    }
+    .features-con.two, .features-con.four, .features-con.eight {
+        border-right: none;
+    }
+    .features-con.three {
+        border-right: 1px solid #ffffff1a;
+    }
+    .play-box {
+        width: 48%;
+    }
+    .tournaments-format .play-wrap {
+        justify-content: center;
+    }
+    .site-header .nav-links li {
+        margin-left: 1.5rem;
+    }
+    .logo img {
+        max-width: 14rem;
+    }
+}
+
+
+
+
+@media(max-width:992px){
+    .site-header nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 79px;
+        right: 0;
+        background-color: #55738e;
+        width: 100%;
+        z-index: 1;
+        padding: 20px;
+    }
+
+    .site-header   nav.active {
+        display: flex;
+    }
+
+    .site-header  .nav-links {
+        flex-direction: column;
+    }
+
+    .site-header .nav-links li {
+        margin: 15px 0;
+    }
+
+    .site-header   .hamburger {
+        display: flex;
+    }
+ 
+}
+
+
+
+@media(max-width:850px){
+    .col-md-4 {
+        width: 48.5%;
+        /* margin: 12px 0; */
+
+    }
+    .upcoming-tour .row {
+        justify-content: center;
+        gap: 20px;
+    }
+    .blog-img {
+        height: 15.75rem;
+    }
+}
+
+@media(max-width:767px){
+    .site-heading h2 {
+        font-size: 2.5125rem;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .features-con {
+        width: 100%;
+        border: 1px solid #ffffff1a !important;
+    }
+    .form-group {
+        width: 100%;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .news-text h3 {
+        padding: 0;
+    }
+    .form-group input {
+        width: 95%;
+    }
+    .form-group button {
+        width: 45%;
+    }
+    .footer-wrap {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .site-banner {
+        height: 30.625rem;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+        margin-bottom: 0.3rem;
+    }
+    .sub-banner {
+        height: 28.375rem;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 2.6125rem;
+    }
+    .play-box {
+        width: 100%;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .main-form {
+        padding: 2rem;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:575px){
+    html{
+        font-size: 14px;
+    }
+    .news-wrap {
+        padding: 2.125rem;
+    }
+    .site-heading h2 {
+        font-size: 2.2125rem;
+    }
+    .upcoming-wrap {
+        height: 20rem;
+    }
+    .news-wrap, .signup-wrap {
+        padding: 2.125rem;
+    }
+    .banner-text h1 {
+        word-break: break-all;
+        padding: 0 10px;
+    }
+    .signup-btns {
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .signup-btns a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:375px){
+    .features-bx {
+        gap: 5px;
+    }
+    .news-wrap {
+        padding: 1.5rem;
+    }
+    .news-text h3 {
+        font-size: 1.575rem;
+    }
+    .footer-links ul {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .news-text h3, .sign-heading h3 {
+        word-wrap: break-word;
+    }
+}
