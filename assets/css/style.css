@@ -899,8 +899,109 @@ display: inline-block;
 
 /* login page css end */
 .sign-heading {
-    margin-bottom: 25px;
+    margin-bottom: 1.875rem;
 }
 .social-links ul li a:hover {
     background: #396590;
 }
+
+/* chess main section css start */
+
+
+
+.chess-main {
+    padding-top: 6.5rem;
+    padding-bottom: 6.25rem
+}
+
+.chess-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.chess-left,
+.chess-right {
+    width: 49%
+}
+
+.lets-icn img {
+    width: 2.1875rem
+}
+
+.play-bx {
+    box-shadow: rgb(100 100 111 / .2) 0 7px 29px 0;
+    padding: .625rem 1.25rem;
+    border-radius: 22px;
+    background-color: #fff;
+    width: 100%
+}
+
+.play-bx p {
+    font-size: 1rem;
+    color: #333
+}
+
+.lets-play {
+    display: flex;
+    align-items: center;
+    gap: 1.5625rem
+}
+
+.hint-sec,
+.play-btns {
+    box-shadow: rgb(0 0 0 / .35) 0 5px 15px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 1.5625rem 0
+}
+
+.hitn-bx {
+    border: 1px solid #d8d6d6;
+    padding: 8px 10px;
+    width: 49%;
+    border-radius: 3px
+}
+
+.hitn-bx p {
+    font-size: 1rem;
+    color: #333
+}
+
+.hint-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.play-btn-bx button {
+    height: 1.875rem;
+    width: 1.875rem;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4a4a4a;
+    background: #d8d6d6;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.play-btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: #dcdcdc;
+    padding: 1.5625rem 7.5rem
+}
+
+
+
+
+
+
+
+/* chess main section css end */

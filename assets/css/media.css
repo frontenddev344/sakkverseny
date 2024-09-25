@@ -27,6 +27,10 @@
     .logo img {
         max-width: 14rem;
     }
+    .chess-main {
+        padding-top: 2.5rem;
+        padding-bottom: 2.25rem;
+    }
 }
 
 
@@ -60,7 +64,13 @@
     .site-header   .hamburger {
         display: flex;
     }
- 
+    .chess-left, .chess-right {
+        width: 100%;
+    }
+    .chess-game-img {
+        height: max-content;
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -169,6 +179,9 @@
     .site-header nav {
         top: 75px;
     }
+    .play-btn-wrap {
+        padding: 1.5625rem 3.5rem;
+    }
 }
 
 @media(max-width:375px){
@@ -194,5 +207,10 @@
     }
     .signup-btns a {
         width: 90%;
+    }
+ 
+    .play-btn-wrap {
+        padding: 1.5625rem 3rem;
+        justify-content: space-between;
     }
 }
