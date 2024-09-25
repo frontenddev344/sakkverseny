@@ -186,4 +186,7 @@
     .news-text h3, .sign-heading h3 {
         word-wrap: break-word;
     }
+    .card {
+        padding: 2rem;
+    }
 }
