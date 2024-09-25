@@ -507,6 +507,7 @@ padding-top: 3.125rem;
     padding: 0.9375rem 1.5625rem 1.375rem;
     transition: right 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 99;
   }
   .wrapper.show {
     right: 20px;
@@ -607,22 +608,26 @@ padding-top: 3.125rem;
     box-shadow: rgb(0 0 0 / .35) 0 5px 15px;
     border-radius: 5px;
     background-color: #fff;
-    transition: all 0.3s linear
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
 
 .play-box:hover {
-    background-color: #1b2936
+    background-color: #e8e8e8
 }
-.play-box:hover .play-text h4{
+/* .play-box:hover .play-text h4{
     color: #fff;
 }
 .play-box:hover .play-text ul li{
     color: #797c82;
-}
+} */
 .play-text h4 {
     font-size: 1.375rem;
     margin-bottom: .625rem;
-    color: #000
+    color: #364f66
 }
 
 .play-text ul li {
@@ -886,7 +891,7 @@ display: inline-block;
     margin-top: 0.625rem;
   }
   .card form button:hover {
-    background-color: #e9ce18;
+    background-color: #a69416;
   }
 
   .login-page-wrap {
@@ -1012,6 +1017,11 @@ a.blank-anchor:hover{
     opacity: 0.5;
 }
 
-
+a.form-link {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
 
 /* chess main section css end */
