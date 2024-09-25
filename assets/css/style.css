@@ -511,7 +511,7 @@ padding-top: 3.125rem;
     right: 20px;
   }
   header h2 {
-    color: #ff6326;
+    color: #1f232b;
     font-weight: 500;
   }
   .wrapper .data {
@@ -533,21 +533,21 @@ padding-top: 3.125rem;
     color: #fff;
     padding: 0.75rem 0;
     border-radius: 4px;
-    background: #e9ce18;
+    background: #1f232b;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
   }
   .buttons #acceptBtn:hover {
-    background-color: #bda509;
+    background-color: #143068;
   }
   #declineBtn {
-    border: 2px solid #e9ce18;
+    border: 2px solid #1f232b;
     background-color: #fff;
-    color: #e9ce18;
+    color: #1f232b;
   }
   #declineBtn:hover {
-    background-color: #e9ce18;
+    background-color: #1f232b;
     color: #fff;
   }
 
