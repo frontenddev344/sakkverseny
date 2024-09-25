@@ -901,3 +901,6 @@ display: inline-block;
 .sign-heading {
     margin-bottom: 25px;
 }
+.social-links ul li a:hover {
+    background: #396590;
+}
