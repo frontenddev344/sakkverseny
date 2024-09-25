@@ -111,7 +111,7 @@ padding-top: 3.125rem;
     transition: color 0.3s ease;
 }
 
-.site-header .nav-links a:hover {
+.site-header .nav-links a:hover, .site-header .nav-links a.current {
     color:#e7c900; /* Tomato color on hover */
 }
 
@@ -236,6 +236,7 @@ padding-top: 3.125rem;
     bottom: 0px;
     left: 0;
     transition: all 0.3s linear;
+    z-index: 9;
 }
 .upcoming-text a {
     font-size: 1.125rem;
@@ -998,9 +999,18 @@ display: inline-block;
     padding: 1.5625rem 7.5rem
 }
 
+a.blank-anchor {
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+    position: relative;
+}
 
-
-
+a.blank-anchor:hover{
+    background-color: #000;
+    opacity: 0.5;
+}
 
 
 
