@@ -2,7 +2,9 @@
     html{
         font-size: 15px;
     }
-
+    .site-header .nav-links li {
+        margin-left: 1.1rem;
+    }
 }
 
 @media(max-width:1050px){
@@ -30,6 +32,12 @@
     .chess-main {
         padding-top: 2.5rem;
         padding-bottom: 2.25rem;
+    }
+    .site-header .nav-links a {
+        font-size: 1rem;
+    }
+    .site-header .nav-links li {
+        margin-left: 1rem;
     }
 }
 
@@ -181,6 +189,10 @@
     }
     .play-btn-wrap {
         padding: 1.5625rem 3.5rem;
+    }
+    .copy-right {
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
